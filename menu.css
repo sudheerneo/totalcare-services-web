@@ -1,0 +1,12 @@
+A:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+.inputStyle {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; FONT: 8pt verdana, Arial, 'MS Sans Serif'; BORDER-LEFT: black 1px solid; COLOR: #000099; BORDER-BOTTOM: black 1px solid; BACKGROUND-COLOR: white
+}
