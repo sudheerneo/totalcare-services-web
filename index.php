@@ -1,5 +1,5 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
+<html><?php echo '' ?>
 <head>
 <meta name="description"
 content="Total Care Services offers a wide range of services incorporating contract cleaning, security services, landscaping, Genset maintenance, pest control services, sump & tank cleaning and electrical/plumbing maintenance services for all types of domestic, retail, commercial and industrial buildings.">
