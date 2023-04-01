@@ -1,0 +1,15 @@
+
+RewriteEngine On
+
+#index.html page point to domain root
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html 
+RewriteRule ^index\.html$ / [L,R=301]
+
+#index page point to domain root
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index
+RewriteRule ^index\.html$ / [L,R=301]
+
+#remove html to a file
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html
